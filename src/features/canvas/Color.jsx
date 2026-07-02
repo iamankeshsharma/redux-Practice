@@ -1,5 +1,5 @@
 import {useSelector, useDispatch} from 'react-redux';
-import {changeColor, changeOpacity, changeFontSize, selectColor, selectOpacity, selectFontSize, selectFont} from './canvasSlice';
+import {changeColor, changeOpacity, selectColor, selectOpacity, selectFontSize, selectFont} from './canvasSlice';
 
 const Color = ()=>{
     const color = useSelector(selectColor);
