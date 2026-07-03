@@ -1,5 +1,5 @@
 import {useDispatch, useSelector} from 'react-redux';
-import {selectFontSize, changeFontSize, changeFont, selectFont} from './canvasSlice';
+import {selectFontSize, changeFontSize, changeFont, selectFont} from './CanvasSlice';
 
 const Font = ()=>{
     const dispatch = useDispatch();
